@@ -1,0 +1,27 @@
+/* CSS fuer Beizdudler */
+td.rot {
+	background: #FF8080;
+}
+td.gruen {
+	background: #80FF80;
+}
+td.gelb {
+	background: #FFFF80;
+}
+span.gruen {
+	background: #80FF80;
+}
+input.blau {
+	background: #8080FF;
+}
+
+/* h2 {color: #0c6;} */
+/* h3 {color: #093;} */
+/* h3 {border: thin solid black;} */
+
+/* fuer Tabelle mit Parameterbeschreibungen */
+/*
+ .param {
+	font-size: 0.85em;
+}
+*/
