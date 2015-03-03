@@ -9,7 +9,7 @@
 		
 		var imgElem = $(document.createElement('div'));
 		
-		imgElem.attr('style', 'width: 32.5px; height: 24px; background-image: url("buck.png"); background-size: 32.5px; background-origin: content-box; cursor: pointer;');
+		imgElem.attr('style', 'width: 32.5px; height: 24px; background-image: url("https://feuermurmel.github.io/test/buck.png"); background-size: 32.5px; background-origin: content-box; cursor: pointer;');
 		
 		$(imgElem).on(
 			'click',
