@@ -4,9 +4,6 @@
 		var commentField = rowElements.eq(-3);
 		var choiceFields = rowElements.toArray().slice(1, rowElements.length - 3);
 		var nameField = rowElements.eq(0);
-		
-		console.log(choiceFields);
-		
 		var imgElem = $(document.createElement('div'));
 		
 		imgElem.attr('style', 'width: 32.5px; height: 24px; background-image: url("https://feuermurmel.github.io/test/buck.png"); background-size: 32.5px; background-origin: content-box; cursor: pointer;');
