@@ -1,8 +1,8 @@
 (function () {
 	var payload = function ($) {
 		var rowElements = $('td:first-child:contains(Feuermurmel)').parent().children();
-		var commentField = rowElements.eq(-3);
-		var choiceFields = rowElements.toArray().slice(1, rowElements.length - 3);
+		var commentField = rowElements.eq(-1);
+		var choiceFields = rowElements.toArray().slice(1, rowElements.length - 1);
 		var nameField = rowElements.eq(0);
 		var imgElem = $(document.createElement('div'));
 		
